@@ -1,0 +1,31 @@
+{
+    "name": "aura/payload-interface",
+    "type": "library",
+    "description": "An interface package for Domain Payload implementations.",
+    "keywords": [
+        "domain",
+        "payload",
+        "ddd"
+    ],
+    "homepage": "https://github.com/auraphp/Aura.Payload_Interface",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aura.Payload_Interface Contributors",
+            "homepage": "https://github.com/auraphp/Aura.Payload_Interface/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aura\\Payload_Interface\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aura\\Payload_Interface\\": "tests/"
+        }
+    }
+}
