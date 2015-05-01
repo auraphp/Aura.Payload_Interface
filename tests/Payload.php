@@ -3,11 +3,23 @@ namespace Aura\Payload_Interface;
 
 class Payload implements PayloadInterface
 {
+    protected $status;
     protected $input;
     protected $output;
     protected $code;
     protected $message;
     protected $extras;
+
+    public function setStatus($status)
+    {
+        $this->status = $status;
+        return $this;
+    }
+
+    public function getStatus()
+    {
+        return $this->status;
+    }
 
     public function setInput($input)
     {

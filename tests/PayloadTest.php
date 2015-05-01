@@ -7,12 +7,14 @@ class PayloadTest extends \PHPUnit_Framework_TestCase
     {
         $payload = new Payload();
 
-        $payload->setInput('input')
+        $payload->setStatus('status')
+            ->setInput('input')
             ->setOutput('output')
             ->setCode('code')
             ->setMessage('message')
             ->setExtras('extras');
 
+        $this->assertSame('status', $payload->getStatus());
         $this->assertSame('input', $payload->getInput());
         $this->assertSame('output', $payload->getOutput());
         $this->assertSame('code', $payload->getCode());

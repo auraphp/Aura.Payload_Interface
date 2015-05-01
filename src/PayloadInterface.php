@@ -19,6 +19,24 @@ interface PayloadInterface
 {
     /**
      *
+     * Sets the status of this payload.
+     *
+     * @param mixed $status The status for this payload.
+     *
+     */
+    public function setStatus($status);
+
+    /**
+     *
+     * Sets the status of this payload.
+     *
+     * @return mixed
+     *
+     */
+    public function getStatus();
+
+    /**
+     *
      * Sets the input received by the domain layer.
      *
      * @param mixed $input The input received by the domain layer.
