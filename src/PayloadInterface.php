@@ -28,7 +28,7 @@ interface PayloadInterface
 
     /**
      *
-     * Sets the status of this payload.
+     * Gets the status of this payload.
      *
      * @return mixed
      *
@@ -73,39 +73,21 @@ interface PayloadInterface
 
     /**
      *
-     * Sets the error or status code produced by the domain layer.
+     * Sets the messages produced by the domain layer.
      *
-     * @param mixed $code The error or status code produced by the domain layer.
+     * @param mixed $messages The messages produced by the domain layer.
      *
      */
-    public function setCode($code);
+    public function setMessages($messages);
 
     /**
      *
-     * Gets the error or status code produced by the domain layer.
+     * Gets the messages produced by the domain layer.
      *
      * @return mixed
      *
      */
-    public function getCode();
-
-    /**
-     *
-     * Sets the error or status message produced by the domain layer.
-     *
-     * @param mixed $message The error or status message produced by the domain layer.
-     *
-     */
-    public function setMessage($message);
-
-    /**
-     *
-     * Gets the error or status message produced by the domain layer.
-     *
-     * @return mixed
-     *
-     */
-    public function getMessage();
+    public function getMessages();
 
     /**
      *

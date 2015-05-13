@@ -34,25 +34,26 @@ Your domain layer should create a domain payload instance, call one or more of
 the following methods, and return the payload object to the calling code. (Each
 of these methods is optional.)
 
+- `setStatus()`: Sets the payload status in terms of the domain layer; e.g.,
+`success`, `failure`, and so on.
+
 - `setInput()`: Sets the input as received by the domain layer.
 
 - `setOutput()`: Sets the output produced by the domain layer.
 
-- `setCode()`: Sets an error or status code reported by the domain layer.
+- `setMessages()`: Sets the messages reported by the domain layer.
 
-- `setMessage()`: Sets an error or status message reported by the domain layer.
-
-- `setExtras()`: Sets "extra" values produced by the domain layer.
+- `setExtras()`: Sets arbitrary "extra" values produced by the domain layer.
 
 You calling code can then examine the payload object using the `get*()` complements
 to the the `set*()` methods.
+
+- `setStatus()`: Gets the payload status in terms of the domain layer.
 
 - `getInput()`: Gets the input as received by the domain layer.
 
 - `getOutput()`: Gets the output produced by the domain layer.
 
-- `getCode()`: Gets an error or status code reported by the domain layer.
+- `getMessages()`: Gets the messages reported by the domain layer.
 
-- `getMessage()`: Gets an error or status message reported by the domain layer.
-
-- `getExtras()`: Gets "extra" values produced by the domain layer.
+- `getExtras()`: Gets arbitrary "extra" values produced by the domain layer.
