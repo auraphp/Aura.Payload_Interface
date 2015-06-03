@@ -48,7 +48,7 @@ of these methods is optional.)
 You calling code can then examine the payload object using the `get*()` complements
 to the the `set*()` methods.
 
-- `setStatus()`: Gets the payload status in terms of the domain layer.
+- `getStatus()`: Gets the payload status in terms of the domain layer.
 
 - `getInput()`: Gets the input as received by the domain layer.
 
