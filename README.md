@@ -12,9 +12,8 @@ Alternatively, [download a release][], or clone this repository, then map the
 
 ## Dependencies
 
-This package requires PHP 5.5 or later; it has been tested on PHP 5.6, PHP 7,
-and HHVM. We recommend using the latest available version of PHP as a matter of
-principle.
+This package requires PHP 5.6 or later; it has been tested on PHP 7 and HHVM.
+We recommend using the latest available version of PHP as a matter of principle.
 
 Aura library packages may sometimes depend on external interfaces, but never on
 external implementations. This allows compliance with community standards
@@ -26,6 +25,8 @@ without compromising flexibility. For specifics, please examine the package
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/auraphp/Aura.Payload_Interface/badges/quality-score.png?b=3.x)](https://scrutinizer-ci.com/g/auraphp/Aura.Payload_Interface/)
 [![Code Coverage](https://scrutinizer-ci.com/g/auraphp/Aura.Payload_Interface/badges/coverage.png?b=3.x)](https://scrutinizer-ci.com/g/auraphp/Aura.Payload_Interface/)
 [![Build Status](https://travis-ci.org/auraphp/Aura.Payload_Interface.png?branch=3.x)](https://travis-ci.org/auraphp/Aura.Payload_Interface)
+
+This project adheres to [Semantic Versioning](http://semver.org/).
 
 To run the unit tests at the command line, issue `composer install` and then
 `phpunit` at the package root. This requires [Composer][] to be available as
