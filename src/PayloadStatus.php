@@ -76,4 +76,9 @@ class PayloadStatus
 
     /** User input was valid. */
     const VALID = 'VALID';
+
+    /** Instantiation not allowed. */
+    final private function __construct()
+    {
+    }
 }
