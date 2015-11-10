@@ -10,7 +10,7 @@ namespace Aura\Payload_Interface;
 
 /**
  *
- * Describe Payload statuses.
+ * Describes the various Payload statuses.
  *
  * @package Aura.Payload_Interface
  *
