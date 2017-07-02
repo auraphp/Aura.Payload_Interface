@@ -27,5 +27,8 @@
         "psr-4": {
             "Aura\\Payload_Interface\\": "tests/"
         }
+    },
+    "require-dev": {
+        "pds/skeleton": "^1.0"
     }
 }
