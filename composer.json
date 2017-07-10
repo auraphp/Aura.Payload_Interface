@@ -27,5 +27,8 @@
         "psr-4": {
             "Aura\\Payload_Interface\\": "tests/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0"
     }
 }
