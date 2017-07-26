@@ -18,9 +18,6 @@
     "require": {
         "php": ">=5.5.0"
     },
-    "require-dev": {
-        "phpunit/phpunit": "~5.7 || ~4.8"
-    },
     "autoload": {
         "psr-4": {
             "Aura\\Payload_Interface\\": "src/"
@@ -30,5 +27,9 @@
         "psr-4": {
             "Aura\\Payload_Interface\\": "tests/"
         }
+    },
+    "require-dev": {
+        "pds/skeleton": "^1.0",
+        "phpunit/phpunit": "~5.7 || ~4.8"
     }
 }
