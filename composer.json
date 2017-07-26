@@ -18,6 +18,9 @@
     "require": {
         "php": ">=5.5.0"
     },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7 || ~4.8"
+    },
     "autoload": {
         "psr-4": {
             "Aura\\Payload_Interface\\": "src/"
