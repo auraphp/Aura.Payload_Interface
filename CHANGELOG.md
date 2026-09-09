@@ -1,6 +1,9 @@
 # CHANGELOG
 
-## 3.2.0 (unreleased)
+Each version heading below is a release tag of the same name, for example
+https://github.com/auraphp/Aura.Payload_Interface/releases/tag/3.1.0.
+
+## 3.2.0
 
 Housekeeping release; no changes to the interfaces themselves.
 
@@ -24,22 +27,22 @@ Housekeeping release; no changes to the interfaces themselves.
   the package. The README now states the PHP versions actually supported, and
   carries the GitHub Actions badge in place of the retired Travis CI one.
 
-## [3.1.0](https://github.com/auraphp/Aura.Payload_Interface/releases/tag/3.1.0) (2017-07-26)
+## 3.1.0 (2017-07-26)
 
 Extract new `ReadablePayloadInterface` and `WritablePayloadInterface` from
 `PayloadInterface`, then compose `PayloadInterface` from them. Existing
 implementions of `PayloadInterface` should continue to work, making this a
 backwards-compatible change.
 
-## [3.0.0](https://github.com/auraphp/Aura.Payload_Interface/releases/tag/3.0.0) (2015-12-01)
+## 3.0.0 (2015-12-01)
 
 First stable release.
 
-## [3.0.0-beta1](https://github.com/auraphp/Aura.Payload_Interface/releases/tag/3.0.0-beta1) (2015-11-10)
+## 3.0.0-beta1 (2015-11-10)
 
 This release adds a PayloadStatus class of constants that is
 implementation-independent.
 
-## [3.0.0-alpha1](https://github.com/auraphp/Aura.Payload_Interface/releases/tag/3.0.0-alpha1) (2015-05-13)
+## 3.0.0-alpha1 (2015-05-13)
 
 First 3.x alpha release.
